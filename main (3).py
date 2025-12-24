@@ -11,7 +11,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandle
 BOT_TOKEN = os.environ.get("BOT_TOKEN")  # ✅ Render ENV
 
 if not BOT_TOKEN:
-    raise RuntimeError("BOT_TOKEN not found in environment variables")
+    raise RuntimeError("BOT_TOKEN=8355745493:AAEaUrfvkHCNOBRkFONMUlwuO142lgpeRfI")
 
 BASE_DIR = os.path.abspath("uploads")
 LOG_DIR = os.path.abspath("logs")
